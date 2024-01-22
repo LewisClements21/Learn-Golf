@@ -83,6 +83,65 @@ main {
 footer {
     background-color: olivedrab;
 }
+#signup {
+    background-image: url(../images/NOCL5559.JPG);
+    background-position: 50%;
+    background-size: cover;
+    flex-grow: 1;
+    padding: 20px 10% 0 10%;
+    text-align: center;
+    font-size: 10px;
+}   
+.input {
+    background: transparent;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    height: 25px;
+    width: 100%;
+    margin: 15px 0 15px 0;
+    padding: 5px 5px;
+    font-size: large;
+}
+#fname, #lname, #email, #contact_number{
+    font-size: large;
+    color: white;
+}
+.join-button {
+    margin-top: 20px;
+    border-radius:  2px;
+    background-color: olivedrab;
+    color: #fafafa;
+    font-size: 150%;
+    padding: 15px 32px;
+}
+@media screen and (min-width: 768px) {
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        top: 2px;
+        left: 25%;
+        font-size: 20px;
+        line-height: 45px;
+    }
+    .input {
+        height: 35px;
+    }
+    #fname, #lname, #email, #contact_number{
+        font-size: x-large;
+    }
+    .input:hover {
+        border-color: #f16c6b;
+    }
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
+}
 @media screen and (min-width: 992px) {
     nav {
         display: block;
@@ -115,4 +174,40 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #ffffff;
     }
+    #fname, #lname, #email, #contact_number{
+        font-size: xx-large;
+    }
+    #signup-form {
+        font-size: xx-large;
+        max-width: 600px;
+        top: 150px;
+        align-items: center;
+    }
+    .input {
+        width: 60%;
+    }
+    .join-button {
+        font-size: 100%;
+        padding: 10px;
+    }
+    #signup {
+        display: flex;
+        flex-direction: row;
+    }
+    #signup > div {
+        flex: 1;
+    }
+    #name {
+        order: 0;
+    }
+    #contact {
+        order: 1;
+    }
+    #name > div {
+        align-self: flex-end;
+    }
+    #contact > div {
+        align-self: flex-start;
+    }
+   
 }

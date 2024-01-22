@@ -1,18 +1,15 @@
 # LEARN GOLF
 
-"Learn Golf" is a website with the aim of helping people increase their skills by providing information via quotes and videos from golf professionals whatever the users current ability be it just starting out or looking to improve their form. The site also provides troubleshooting for common mistakes people make in their swing by helping the user identify the problem and then showing them how to fix it. 
+"Learn Golf" is a website with the aim to convince people to take up golf. 
 
 ## Features
 
-The website will have a landing page when first opened where there will be a nav bar which contains "Home", "Online Tutorials", "Sign Up"
-The Home page will have eye catching visuals to keep the user interested an a background in relation to the content.
-I may also add a nav bar for just the home page so people can navigate to what they want to see quicker such as if I add a beginner section and an intermediate section the buttons will take you to the respective section.
+The website will have a landing page when first opened where there will be a nav bar which contains "Home", "Benefits", "Golf Careers", "Golf Lessons".
+The Home page will have eye catching visuals to keep the user interested and a background in relation to the content (most likely a course in scotland). The home page will have a section telling you what golf is and why so many people love it. there will be a "click here to find out more" which will take the user to the benefits page which will detail all the best things about golf and what makes it different from other sports.
+I may also add a "careers" page which will inform people how they can make money while playing golf such as becoming professional and what it takes to become a professional. It will also mention how you could also be a golf instructor, a rewarding career shaping people into golf professionals from a very young age.
+When on the benefits page I will reuse the "click here to find out more" after mentioning you could move on from amateur level to professional and play all over the world. Then do the same on the home page and careers page which will take the user to the Lessons page where they can enter their details to be contacted by a Professional PGA golf instructor.
 
-The online tutorial page will have videos the user can use to improve their form and learn from professional golfers.
+## Credit
 
-The Sign Up page will allow the user to sign up for online lessons with a professional golfer.
-
-## credit
-
-Alot of my code was inspired by the love running project such as the drop down menu. Other than that the rest is from my own mind.
-The pictures and videos used on the site were provided by a professional golfer i know personally called Chris Maclean.
+Alot of my code was inspired by the love running project such as the drop down menu. Other than that the rest is my own creation.
+The pictures and videos used on the site were provided and permitted by a professional golfer i know personally called Chris Maclean.
