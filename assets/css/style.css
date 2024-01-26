@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     color: #3a3a3a;
 }
-body, h1 {
+#logo {
     color: #ffffff;
 }
 h1, h2 ,h3 {
@@ -23,7 +23,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #ffffff;
+    box-shadow: 0 2px 2px white;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -35,7 +35,8 @@ header a {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    list-style-type: none;    
+    list-style-type: none; 
+    color: #ffffff;   
 }
 #menu > li {
     margin-bottom: 1em;
@@ -84,14 +85,26 @@ footer {
     background-color: olivedrab;
 }
 #signup {
-    background-image: url(../images/NOCL5559.JPG);
+    background-image: url(../images/signup.JPG);
     background-position: 50%;
     background-size: cover;
     flex-grow: 1;
     padding: 20px 10% 0 10%;
     text-align: center;
     font-size: 10px;
+    color: #fafafa;
 }   
+#home {
+    background-image: url(../images/home.jpg);
+    background-size: cover;
+    background-position: 50%;
+    flex-grow: 1;
+    padding: 20px 10% 0 10%;
+    color: olivedrab;
+}
+#reasons {
+    margin-top: 30px;
+}
 .input {
     background: transparent;
     color: #fafafa;
@@ -117,7 +130,6 @@ footer {
 }
 @media screen and (min-width: 768px) {
     #signup {
-        background-position: center;
         position: relative;
     }
     #signup-form {
@@ -179,9 +191,8 @@ footer {
     }
     #signup-form {
         font-size: xx-large;
-        max-width: 600px;
+        max-width: 550px;
         top: 150px;
-        align-items: center;
     }
     .input {
         width: 60%;
@@ -190,24 +201,4 @@ footer {
         font-size: 100%;
         padding: 10px;
     }
-    #signup {
-        display: flex;
-        flex-direction: row;
-    }
-    #signup > div {
-        flex: 1;
-    }
-    #name {
-        order: 0;
-    }
-    #contact {
-        order: 1;
-    }
-    #name > div {
-        align-self: flex-end;
-    }
-    #contact > div {
-        align-self: flex-start;
-    }
-   
 }
