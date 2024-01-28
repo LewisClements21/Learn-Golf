@@ -97,20 +97,22 @@ footer {
     font-size: 10px;
     color: #fafafa;
 }   
-#home {
-    
+#hero {  
     background: url(../images/large_home.jpg)no-repeat center center/cover;
     background-position: 50%;
     height: 600px;
-
 }
 #reasons {
     margin: 25px;
     color: olivedrab;
     font-size: larger;
 }
+#injuries {
+    margin: 25px;
+    color: olivedrab;
+    font-size: larger;
+}
 #why {
-    padding-top: 650px;
     margin: 25px;
     color: olivedrab;
     font-size: larger;
@@ -174,10 +176,8 @@ footer {
         box-shadow: none;
         width: fit-content;
     }
-    #home {
-        width: 100%;
-        background: url(../images/large_home.jpg);
-        position: relative;
+    #hero {
+        height: 1200px;
     }
     #menu {
         display: flex;
@@ -191,20 +191,28 @@ footer {
     }
     #health_benefits {
         text-align: left;
-        width: 22%;
+        width: 40%;
     }
     #social_benefits {
         text-align: center;
-        width: 35%;
+        width: 55%;
         margin-left: 15px;
+        border-top: 4px solid olive drab;
     }
     #injuries {
+        font-size: xx-large;
         text-align: center;
-        width: 22%;
+        color: olivedrab;
+        border-top: 4px solid olivedrab;
+        margin: 20px;
+        width: 99%;
+        
     }
     #why {
         font-size: xx-large;
         text-align: center;
+        padding-bottom: 8px;
+        border-bottom: 4px solid olivedrab;
     }
     #menu>li {
         padding-left: 1rem;
@@ -231,8 +239,20 @@ footer {
     }
     #signup-form {
         font-size: xx-large;
-        max-width: 550px;
+        max-width: 75vw;
         top: 150px;
+    }
+    #contact_info {
+        display: flex;
+        justify-content: space-between;
+    }
+    #name {
+        text-align: left;
+        width: 35%
+    }
+    #contact {
+        text-align: right;
+        width: 40%;
     }
     .input {
         width: 60%;
