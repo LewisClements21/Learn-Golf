@@ -32,6 +32,9 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+label i {
+    color: #fafafa;
+}
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -95,15 +98,22 @@ footer {
     color: #fafafa;
 }   
 #home {
-    background-image: url(../images/home.jpg);
-    background-size: cover;
+    
+    background: url(../images/large_home.jpg)no-repeat center center/cover;
     background-position: 50%;
-    flex-grow: 1;
-    padding: 20px 10% 0 10%;
-    color: olivedrab;
+    height: 600px;
+
 }
 #reasons {
-    margin-top: 30px;
+    margin: 25px;
+    color: olivedrab;
+    font-size: larger;
+}
+#why {
+    padding-top: 650px;
+    margin: 25px;
+    color: olivedrab;
+    font-size: larger;
 }
 .input {
     background: transparent;
@@ -140,6 +150,9 @@ footer {
         font-size: 20px;
         line-height: 45px;
     }
+    #reasons, #why {
+        font-size: x-large;
+    }
     .input {
         height: 35px;
     }
@@ -161,11 +174,38 @@ footer {
         box-shadow: none;
         width: fit-content;
     }
+    #home {
+        width: 100%;
+        background: url(../images/large_home.jpg);
+        position: relative;
+    }
     #menu {
         display: flex;
         background-color: olivedrab;
     }
-
+    #reasons {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        font-size: xx-large;
+    }
+    #health_benefits {
+        text-align: left;
+        width: 22%;
+    }
+    #social_benefits {
+        text-align: center;
+        width: 35%;
+        margin-left: 15px;
+    }
+    #injuries {
+        text-align: center;
+        width: 22%;
+    }
+    #why {
+        font-size: xx-large;
+        text-align: center;
+    }
     #menu>li {
         padding-left: 1rem;
     }
