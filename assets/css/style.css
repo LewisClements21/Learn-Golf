@@ -89,16 +89,23 @@ footer {
 }
 #signup {
     background-image: url(../images/signup.JPG);
-    background-position: 50%;
     background-size: cover;
+    background-position: 85%;
     flex-grow: 1;
-    padding: 20px 10% 0 10%;
+}   
+#signup-form {
+    margin: 15px;
+    font-size: larger;
+    line-height: 18px;
     text-align: center;
     font-size: 10px;
     color: #fafafa;
-}   
+}
+#contact_info {
+    width: 70vw;
+}
 #hero {  
-    background: url(../images/large_home.jpg)no-repeat center center/cover;
+    background: url(../images/home.jpg)no-repeat center center/cover;
     background-position: 50%;
     height: 600px;
 }
@@ -120,9 +127,9 @@ footer {
 .input {
     background: transparent;
     color: #fafafa;
-    border: 1px solid #fafafa;
+    border: 3px solid #fafafa;
     border-radius: 2px;
-    height: 25px;
+    height: 40px;
     width: 100%;
     margin: 15px 0 15px 0;
     padding: 5px 5px;
@@ -140,20 +147,31 @@ footer {
     font-size: 150%;
     padding: 15px 32px;
 }
+#thank-you {
+    background-image: url(../images/thank-you.jpg);
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+}
+#thank-you h1, h3 {
+    margin: 20px 10px;
+    text-align: center;
+    font-size: larger;
+    color: #ffffff;
+}
 @media screen and (min-width: 768px) {
-    #signup {
-        position: relative;
-    }
     #signup-form {
-        max-width: 400px;
-        position: absolute;
-        top: 2px;
-        left: 25%;
+        max-width: 100vw;
         font-size: 20px;
-        line-height: 45px;
+        line-height: 62px;
+        margin: 20px;
     }
     #reasons, #why {
         font-size: x-large;
+    }
+    #thank-you h1, h3{
+        font-size: xx-large;
+        margin: 200px 20px;
     }
     .input {
         height: 35px;
@@ -162,14 +180,14 @@ footer {
         font-size: x-large;
     }
     .input:hover {
-        border-color: #f16c6b;
+        border-color: olivedrab;
     }
     .join-button:hover {
         background-color: #fafafa;
         color: #454b1b;
     }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
     nav {
         display: block;
         position: relative;
@@ -239,20 +257,9 @@ footer {
     }
     #signup-form {
         font-size: xx-large;
-        max-width: 75vw;
-        top: 150px;
-    }
-    #contact_info {
-        display: flex;
-        justify-content: space-between;
-    }
-    #name {
-        text-align: left;
-        width: 35%
-    }
-    #contact {
-        text-align: right;
-        width: 40%;
+        max-width: 60vw;
+        line-height: 120px;
+        justify-content: 
     }
     .input {
         width: 60%;
