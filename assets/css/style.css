@@ -96,10 +96,12 @@ footer {
 #signup-form {
     margin: 15px;
     font-size: larger;
-    line-height: 18px;
     text-align: center;
     font-size: 10px;
     color: #fafafa;
+}
+#signup-form div {
+    text-align: left;
 }
 #contact_info {
     width: 70vw;
@@ -127,9 +129,9 @@ footer {
 .input {
     background: transparent;
     color: #fafafa;
-    border: 3px solid #fafafa;
+    border: 1px solid #fafafa;
     border-radius: 2px;
-    height: 40px;
+    height: 25px;
     width: 100%;
     margin: 15px 0 15px 0;
     padding: 5px 5px;
@@ -166,6 +168,10 @@ footer {
         line-height: 62px;
         margin: 20px;
     }
+    #contact_info {
+       width: 70vw;
+       padding-right: 400px;
+    }
     #reasons, #why {
         font-size: x-large;
     }
@@ -174,7 +180,8 @@ footer {
         margin: 200px 20px;
     }
     .input {
-        height: 35px;
+        height: 40px;
+        border: 3px solid #ffffff; 
     }
     #fname, #lname, #email, #contact_number{
         font-size: x-large;
@@ -259,7 +266,12 @@ footer {
         font-size: xx-large;
         max-width: 60vw;
         line-height: 120px;
-        justify-content: 
+    }
+    #signup-form div {
+        text-align: right !important;
+    }
+    #contact-info {
+        width: 60vw;
     }
     .input {
         width: 60%;
