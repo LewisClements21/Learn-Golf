@@ -101,7 +101,9 @@ footer {
     color: #fafafa;
 }
 #signup-form div {
-    text-align: left;
+    text-align: center;
+    margin-left: 22px;
+    padding-top: 15px;
 }
 #contact_info {
     width: 70vw;
@@ -112,7 +114,7 @@ footer {
     height: 600px;
 }
 #reasons {
-    margin: 25px;
+    margin: 35px;
     color: olivedrab;
     font-size: larger;
 }
@@ -155,29 +157,59 @@ footer {
     background-position: 75%;
     flex-grow: 1;
 }
-#thank-you h1, h3 {
+#thank-you h1 {
     margin: 20px 10px;
     text-align: center;
     font-size: larger;
     color: #ffffff;
 }
+#thank-you h3 {
+    margin: 20px 10px;
+    text-align: center;
+    font-size: larger;
+    color: #ffffff;
+}
+#golf-careers {
+    color: olivedrab;
+}
+#golf-careers a {
+    color: olive;
+}
+#careers-hero {
+    background-image: url(../images/careers.jpg);
+    background-size: cover;
+    background-position: 80%;
+    height: 600px;
+}
+#careers {
+    margin: 35px;
+}
+#begin {
+    font-size: larger;
+}
 @media screen and (min-width: 768px) {
     #signup-form {
         max-width: 100vw;
         font-size: 20px;
-        line-height: 62px;
         margin: 20px;
     }
     #contact_info {
-       width: 70vw;
-       padding-right: 400px;
+       width: 90vw;
+       line-height: 85px;
     }
     #reasons, #why {
         font-size: x-large;
     }
-    #thank-you h1, h3{
+    #thank-you h1 {
         font-size: xx-large;
         margin: 200px 20px;
+    }
+    #thank-you h3 {
+        font-size: xx-large;
+        margin: 200px 20px;
+    }
+    #careers {
+        font-size: larger;
     }
     .input {
         height: 40px;
@@ -203,6 +235,12 @@ footer {
     }
     #hero {
         height: 1200px;
+    }
+    #careers-hero {
+        height: 1200px;
+    }
+    #careers {
+        font-size: x-large;
     }
     #menu {
         display: flex;
@@ -265,13 +303,14 @@ footer {
     #signup-form {
         font-size: xx-large;
         max-width: 60vw;
-        line-height: 120px;
     }
     #signup-form div {
         text-align: right !important;
     }
-    #contact-info {
+    #contact_info {
         width: 60vw;
+        line-height: 100px;
+        padding-left: 50px;
     }
     .input {
         width: 60%;
