@@ -85,17 +85,28 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 * Chrome dev tools was used to test the sites responsiveness on different screen sizes.
 
 ### Lighthouse report
-
+#### Home Page
 ![Home page lighthouse report](/assets/images/lighthouse-report-home.png)
-## Credit
 
-Alot of my code was inspired by the love running project such as the drop down menu. Other than that the rest is my own creation. 
-The pictures and videos used on the gallery and sign-up page were provided and permitted by a professional golfer i know personally called Chris Maclean. I also used some free pictures from www.pexels.com in the Home and Careers page.
-I used golfcare.co.uk to fact check what I was writing on the careers page so I could be confident I wasn't providing incorrect information. I also used some terminology and links from this site.
+#### Careers Page
+![Careers page lighthouse report](/assets/images/lighthouse-report-careers.png)
 
+#### Signup page
+![Signup page lighthouse report](/assets/images/lighthouse-report-signup.png)
 
+## Credits
 
+### Code
+* Understanding flexbox to create my gallery was learned through [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* The README template was helpfully provided by [Code Institute (template)](https://github.com/Thomas-Tomo/Lunar-Escape/blob/main/README.md?plain=1) 
 
+### Content
+* A few images used on the site such as the home screen, thank you screen, careers screen were provided by pexels.com
+* The rest of the images in the gallery and on the signup page were provided and permitted by a professional golfer i know personally called Chris Maclean.
+* I used golfcare.co.uk to fact check what I was writing on the careers page so I could be confident I wasn't providing incorrect information. I also used some terminology and links from this site.
+* All content was written by the developer apart from some facts on the careers page I learned from golfcare.co.uk which I worded in my own way.
 
-
-[def]: /assets/images/lighthouse-report-home.png
+## Acknowledgements
+ 
+ * My mentor Mitko Bachvarov provided helpful feedback and links and was very patient with questions I had relating to code.
+ * Some of my code was inspired by the love running project such as the drop down menu
